@@ -14,6 +14,14 @@ Technology choices:
 
 **Depends on Bun to be installed**
 
+## Capability packs
+Better T Stack provides the baseline. Your coding agent adjust towards a desired end-state by adding capability packs on top. You can define your own packs, but here are some examples:
+- **REST API pack**: Add OpenAPIHandler to server, generate OpenAPI spec from oRPC router, and serve API docs with Swagger UI or Redoc.
+- **GraphQL pack**: Add GraphQL server (e.g. Apollo Server) to the server app, generate schema from oRPC router, and serve GraphQL Playground.
+- **Testing pack**: Add testing frameworks (e.g. Jest, Testing Library), set up test structure and example tests for server and web apps.
+- **CI/CD pack**: Add configuration files for CI/CD pipelines (e.g. GitHub Actions) to run tests, build apps, and deploy to hosting platforms.
+
+
 ## Project structure
 
 ```
